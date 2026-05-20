@@ -16,7 +16,7 @@ This tool does not look up DOI values for `@book` entries. Books can have DOIs, 
 ## What It Does
 
 - Normalizes arXiv entries by extracting the arXiv ID into `eprint`, adding `archivePrefix = {arXiv}`, removing `journal`, and removing `url`.
-- Replaces `lastaccessed` with `urldate = {2026-01-13}` for `online` entries and URL-bearing non-arXiv `misc` entries.
+- Replaces `lastaccessed` with `urldate = {xxx}` (can be costumized) for `online` entries and URL-bearing non-arXiv `misc` entries.
 - Looks up missing DOI values for `article`, `inproceedings`, and `incollection` entries through Crossref.
 - Adds DOI values only when the Crossref match is high confidence.
 - Treats a Crossref title as matching if either the full title or the part before `:` matches strongly.
