@@ -16,7 +16,7 @@ REPORT_FILE = 'cleaning_report.md'
 
 HEADERS = {'User-Agent': 'BibCleaner/1.0 (mailto:your-email@example.com)'}
 
-DEFAULT_URLDATE = '2026-01-13'
+DEFAULT_URLDATE = '{Edit-your-desired-date}'
 
 CROSSREF_SLEEP_SECONDS = 0.5
 
